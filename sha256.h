@@ -29,7 +29,7 @@ class SHA256
 
 
     /// <summary>
-    /// The SHA works with 512 bit chunks of data. m_data is therefore a byte array with a len of 64 (and thus 512 bits)
+    /// The SHA works with 512 bit chunks of data. m_DataChunk is therefore a byte array with a len of 64 (and thus 512 bits)
     /// </summary>
     std::uint8_t m_DataChunk[64];
 
